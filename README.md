@@ -1,60 +1,32 @@
-# car-sales-dashboard
-Interactive Streamlit dashboard for exploratory analysis of car sales ads
-How to Run Locally
+Vehicle Sales Ads Dashboard 🚗
+This project is an interactive web application designed to explore and analyze a dataset of vehicle sales advertisements.
 
-Clone this repository:
+🔗 Live Deployed Dashboard
+You can access the live application here: https://car-sales-dashboard-11-h6v4.onrender.com
 
-git clone https://github.com/wedadnkh/car-sales-dashboard.git
-cd car-sales-dashboard
+📋 Project Components
+As per the project requirements, this repository includes:
 
+Exploratory Data Analysis (EDA): See the EDA.ipynb notebook for the initial data cleaning, handling missing values, and visual exploration.
 
-Create a virtual environment:
+Web Application: The app.py script contains the Streamlit code that powers the dashboard.
 
-python -m venv venv
+Dataset: The vehicles_us.csv file used for the analysis.
 
+🛠️ Key Features
+Interactive Histograms: Visualize the distribution of car prices and model years.
 
-Activate the virtual environment:
+Scatter Plots: Analyze the relationship between mileage (odometer) and price.
 
-Windows:
+Dynamic Filters: Use checkboxes to toggle visualizations on and off.
 
-venv\Scripts\activate
+🚀 Technical Setup
+How to Run Locally:
+Clone this repository.
 
+Install dependencies: pip install -r requirements.txt.
 
-Mac/Linux:
+Run the app: streamlit run app.py.
 
-source venv/bin/activate
-
-
-Install the required packages:
-
-pip install -r requirements.txt
-
-
-Run the Streamlit app:
-
-streamlit run app.py
-
-Deployment
-
-The application is deployed and can be accessed live on Render:
-
-Live Demo
-
-Project Structure
-.
-├── README.md
-├── app.py
-├── vehicles_us.csv
-├── requirements.txt
-├── notebooks
-│   └── EDA.ipynb
-└── .streamlit
-    └── config.toml
-
-Acknowledgements
-
-Streamlit – for the simple, powerful web app framework
-
-Plotly – for the interactive plots
-
-Pandas – for handling and processing the data
+Configuration:
+The app uses a .streamlit/config.toml file to manage server settings for deployment on Render.
