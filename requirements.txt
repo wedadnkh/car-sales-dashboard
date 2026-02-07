@@ -1,1 +1,4 @@
-pip freeze > requirements.txt
+pandas==2.0.3
+streamlit==1.25.0
+plotly==5.15.0
+altair==5.0.1
